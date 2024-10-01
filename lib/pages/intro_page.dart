@@ -5,6 +5,11 @@ class IntroPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.grey[400],
+      appBar: AppBar(
+        backgroundColor: Colors.grey[800],
+      ),
+    );
   }
 }
