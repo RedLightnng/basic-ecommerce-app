@@ -6,9 +6,15 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[400],
-      appBar: AppBar(
-        backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.grey[300],
+      body: Column(
+        children: [
+          //logo
+          Image.asset(
+            'assets/images/alpha_logo.png',
+            height: 300,
+          )
+        ],
       ),
     );
   }
