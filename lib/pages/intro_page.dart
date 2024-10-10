@@ -33,7 +33,10 @@ class IntroPage extends StatelessWidget {
               ),
               SizedBox(height: 30),
               GestureDetector(
-                onTap: () => Navigator.pushNamed(context, '/homepage'),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/homepage');
+                },
                 child: Container(
                   padding: EdgeInsets.all(20),
                   decoration: BoxDecoration(
