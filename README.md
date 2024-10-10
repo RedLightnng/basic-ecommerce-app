@@ -4,4 +4,4 @@ A basic Ecommerce application using flutter, we will be selling sigmas in this a
 
 ## Getting Started
 
-Using multiple APIs for animations and suck the aim is to create is SMASHING app.
+Using multiple APIs for animations and such the aim is to create a SMASHING app.
