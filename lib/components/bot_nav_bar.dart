@@ -18,7 +18,7 @@ class MyBottomNavBar extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
           tabBorderRadius: 16,
           onTabChange: onTabChange,
-          tabs: [
+          tabs: const [
             GButton(
               icon: Icons.home,
               text: "Shop",

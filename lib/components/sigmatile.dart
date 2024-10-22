@@ -47,20 +47,20 @@ class SigmaTile extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      '₹' + sigma.price,
+                      '₹${sigma.price}',
                       style: TextStyle(color: Colors.grey, fontSize: 13),
                     ),
                   ],
                 ),
                 Container(
                   padding: EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                      color: Colors.grey[900],
+                      borderRadius: BorderRadius.circular(20)),
                   child: Icon(
                     Icons.add,
                     color: Colors.white,
                   ),
-                  decoration: BoxDecoration(
-                      color: Colors.grey[900],
-                      borderRadius: BorderRadius.circular(20)),
                 )
               ],
               //name

@@ -4,7 +4,7 @@ import '../components/sigmatile.dart';
 import '../models/sigma.dart';
 
 class ShopPage extends StatefulWidget {
-  ShopPage({super.key});
+  const ShopPage({super.key});
 
   @override
   State<ShopPage> createState() => _ShopPageState();
@@ -74,7 +74,7 @@ class _ShopPageState extends State<ShopPage> {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               Text(
                 "Hot Picks 🔥",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
